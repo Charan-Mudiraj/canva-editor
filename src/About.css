@@ -1,0 +1,27 @@
+#ac-about-card {
+  background-color: white;
+  height: fit-content;
+  width: 300px;
+  padding: 1px 10px;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.158);
+  border-radius: 20px;
+  font-family: cursive;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#ac-about-card hr {
+  border: 1px solid rgba(128, 128, 128, 0.205);
+}
+#ac-icons-flex {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 7px;
+}
+#social-icon img {
+  height: 30px;
+}

@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(104, 104, 104);
+}
+#canva {
+  background-color: white;
+  border-radius: 15px;
+  width: 500px;
+  height: 600px;
+  overflow: hidden;
+  margin-left: 4px;
+  position: relative;
+}
+.movable {
+  position: absolute;
+  cursor: grab;
+  width: fit-content;
+  padding: 7px;
+  outline: none;
+  white-space: nowrap;
+  user-select: none;
+}
+.movable:focus {
+  outline: 1px solid black;
+  outline-style: dashed;
+  border-radius: 5px;
+}
